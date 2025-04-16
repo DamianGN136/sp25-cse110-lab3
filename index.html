@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meeting Minutes</title>
+        <meta name="description" content="Meeting minutes for our team project discussion">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+
+        <header>
+            <h1>Team Meeting Minutes</h1>
+            <img src="Blue and Black Minimal Geek Code Logo.png" alt="Team Logo" width="350">
+            <h3>Date: 4/12/25</h3>
+            <nav>
+                <a href="#attendance">Attendance</a> |
+                <a href="#agenda">Agenda</a> |
+                <a href="#todos">To-Dos</a> |
+                <a href="#new-points">New Points</a> |
+                <a href="#misc">Miscellaneous</a>
+            </nav>
+            <hr>
+        </header>
+
+        <main>
+
+            <section id="attendance">
+                <h2>Attendance List</h2>
+                <ul>
+                    <li><strong>Damian Nieto</strong></li>
+                    <li>Team Member 1</li>
+                    <li>Team Member 2</li>
+                    <li>Team Member 3</li>
+                    <li>Team Member 4</li>
+                    <li>Team Member 5</li>
+                    <li>Team Member 6</li>
+                    <li>Team Member 7</li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p><b>Total attendance:</b> 8/11</p>
+            </section>
+    
+            <section id="agenda">
+                <h2>Last Meeting Agenda</h2>
+                <ol>
+                    <li>Sign up for Slack</li>
+                    <li>Create GitHub accounts</li>
+                    <li>Confirm availability for meetings</li>
+                    <li>Discuss team experience</li>
+                    <li>Discuss potential role assignments</li>
+                    <li>Brainstorm concepts for card application</li>
+                </ol>
+            </section>
+    
+            <section id="todos">
+                <h2>Things To Finish</h2>
+                <ul>
+                    <li>Sign up for <em>GitHub</em> (if not already)</li>
+                    <li>Sign up for <em>Slack</em> (if not already)</li>
+                    <li>Fill in your availability (if not alread)</li>
+                </ul>
+            </section>
+    
+            <section id="new-points">
+                <h2>New Agenda</h2>
+                <ul>
+                    <li>Talk about potential tech stacks</li>
+                    <li>Assign roles based on experience and preference</li>
+                    <li>Pick a concept for the card app</li>
+                    <li>Begin initial design brainstorming</li>
+                </ul>
+            </section>
+    
+            <section id="misc">
+                <h2>Miscellaneous / Comments</h2>
+                <ul>
+                    <li>Teammate 2 can’t meet Friday — dog grooming appointment</li>
+                    <li><b>Translator needed</b>: Teammate 6 only speaks in <em>Valorant call outs</em></li>
+                    <li><i>No one</i> on the team likes JavaScript</li>
+                </ul>
+    
+                <details>
+                    <summary>For the record</summary>
+                    <p>Teammate 6 can actually speak normally... mostly<br>Also, JavaScript is... tolerable?</p>
+                </details>
+    
+                <p>Here’s a quick video recap from our last meeting:</p>
+                <video controls width="320">
+                    <source src="meeting_recap.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+    
+                <p>Audio of our meeting:</p>
+                <audio controls>
+                    <source src="theme_song.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+    
+            <hr>
+    
+            <section id="feedback-form">
+                <h2>Feedback Form</h2>
+                <form>
+                    <fieldset>
+                        <legend>Meeting Feedback</legend>
+    
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name"><br><br>
+    
+                        <label>Did you attend?</label><br>
+                        <input type="radio" id="yes" name="attended" value="yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="no" name="attended" value="no">
+                        <label for="no">No</label><br><br>
+    
+                        <label for="fav-topic">Favorite topic:</label>
+                        <select id="fav-topic" name="fav-topic">
+                            <option value="stack">Tech Stack</option>
+                            <option value="roles">Role Assignment</option>
+                            <option value="design">Design Discussion</option>
+                        </select><br><br>
+    
+                        <label for="suggestions">Other thoughts:</label><br>
+                        <textarea id="suggestions" name="suggestions" rows="4" cols="30"></textarea><br><br>
+    
+                        <label for="date">Preferred meeting date:</label>
+                        <input type="date" id="date" name="date"><br><br>
+    
+                        <label for="tools">Preferred tools:</label>
+                        <input list="tools" name="tool">
+                        <datalist id="tools">
+                            <option value="Slack">
+                            <option value="GitHub">
+                            <option value="Trello">
+                            <option value="Figma">
+                        </datalist><br><br>
+    
+                        <input type="checkbox" id="followup" name="followup">
+                        <label for="followup">Send me a follow-up email</label><br><br>
+    
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+    
+        </main>
+
+
+
+        
+
+
+    </body>
+
+
+</html>
