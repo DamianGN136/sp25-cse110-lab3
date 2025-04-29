@@ -1,5 +1,5 @@
-# Lab 2 - Starter
+# Lab 3 - Github Page
 
-https://damiangn136.github.io/Lab2_Starter_fork/
+https://damiangn136.github.io/sp25-cse110-lab3/
 
 
